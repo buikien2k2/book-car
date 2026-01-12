@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>DVDL Phương Nam - Đặt xe uy tín, chất lượng</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">DVDL<span> Phương Nam</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Trang chủ</a></li>
+            <li class="nav-item"><a href="#ve-chung-toi" class="nav-link">Về chúng tôi</a></li>
+            <li class="nav-item"><a href="#dich-vu" class="nav-link">Dịch vụ</a></li>
+            <li class="nav-item"><a href="#bang-gia" class="nav-link">Bảng giá</a></li>
+            <li class="nav-item"><a href="#loai-xe" class="nav-link">Loại xe</a></li>
+            <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#lien-he" class="nav-link">Liên hệ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+
+    <div class="hero-wrap ftco-degree-bg" style="background-image: url('images/bg_1.1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
+          <div class="col-lg-8 ftco-animate">
+            <div class="text w-100 text-center mb-md-5 pb-md-5">
+              <h1 class="mb-4">An toàn &amp; Tiện lợi khi đặt xe</h1>
+              <p style="font-size: 18px;">Tiết kiệm chi phí, trải nghiệm thoải mái như xe gia đình</p>
+              <a href="https://vimeo.com/45830194" class="icon-wrap popup-vimeo d-flex align-items-center mt-4 justify-content-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <span class="ion-ios-play"></span>
+                </div>
+                <div class="heading-title ml-5">
+                  <span>Đặt xe để trải nghiệm</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section ftco-no-pt bg-light">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-md-12 featured-top">
+            <div class="row no-gutters">
+              <div class="col-md-5 align-items-center">
+                <form action="#" method="post" class="request-form ftco-animate bg-primary" id="form-dat-xe">
+                  <h2>Đặt xe cho chuyến đi</h2>
+
+                  <div class="form-group">
+                    <label for="fullname" class="label">Họ tên</label>
+                    <input type="text" id="fullname" name="fullname" class="form-control" placeholder="Nhập họ tên đầy đủ của bạn" required>
+                  </div>
+
+                  <div class="d-flex">
+                    <div class="form-group mr-2">
+                      <label for="phone" class="label">Số điện thoại</label>
+                      <input type="tel" id="phone" name="phone" class="form-control" placeholder="Ví dụ: 0901234567" required>
+                    </div>
+                    <div class="form-group ml-2">
+                      <label for="email" class="label">Email</label>
+                      <input type="email" id="email" name="email" class="form-control" placeholder="Ví dụ: email@domain.com">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="pickup_location" class="label">Nơi đón</label>
+                    <input type="text" id="pickup_location" name="pickup_location" class="form-control" placeholder="Bạn muốn đón ở nơi nào?" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="dropoff_location" class="label">Nơi đến</label>
+                    <input type="text" id="dropoff_location" name="dropoff_location" class="form-control" placeholder="Bạn muốn đi đâu?" required>
+                  </div>
+
+                  <div class="d-flex">
+                    <div class="form-group mr-2">
+                      <label for="pickup_date" class="label">Ngày đón</label>
+                      <input type="text" id="book_pick_date" name="book_pick_date" class="form-control" placeholder="Ngày khởi hành" autocomplete="off" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickup_time" class="label">Giờ đón</label>
+                      <input type="text" id="time_pick" name="pickup_time" class="form-control" placeholder="Giờ đón khách" autocomplete="off">
+                    </div>
+                  </div>
+                  <div class="form-group mb-0">
+                    <label class="label">Loại xe</label>
+                    <div class="d-flex">
+                      <div class="form-group mb-0">
+                        <input type="radio" id="car4" name="car_type" value="4" class="rd-btn">
+                        <label for="car4" class="label">4 chỗ</label>
+                      </div>
+                      <div class="form-group mb-0">
+                        <input type="radio" id="car7" name="car_type" value="7" class="rd-btn">
+                        <label for="car7" class="label">7 chỗ</label>
+                      </div>
+                      <div class="form-group mb-0">
+                        <input type="radio" id="car16" name="car_type" value="16" class="rd-btn">
+                        <label for="car16" class="label">16 chỗ</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group mb-0">
+                    <label class="label">Chiều đi</label>
+                    <div class="d-flex">
+                      <div class="form-group mb-0">
+                        <input type="radio" id="oneway" name="car_type" value="4" class="rd-btn">
+                        <label for="oneway" class="label">1 chiều</label>
+                      </div>
+                      <div class="form-group mb-0">
+                        <input type="radio" id="roundtrip" name="car_type" value="7" class="rd-btn">
+                        <label for="roundtrip" class="label">Khứ hồi</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <input type="submit" value="Đặt xe ngay" class="btn btn-secondary py-3 px-4">
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-md-7 d-flex align-items-center">
+                <div class="services-wrap rounded-right w-100">
+                  <h3 class="heading-section mb-4">Các bước đặt xe online</h3>
+                  <div class="row d-flex mb-4">
+                    <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                      <div class="services w-100 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
+                        <div class="text w-100">
+                          <h3 class="heading mb-2">Điền thông tin chuyến đi</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                      <div class="services w-100 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-handshake"></span></div>
+                        <div class="text w-100">
+                          <h3 class="heading mb-2">Xác nhận giá &amp; tài xế</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                      <div class="services w-100 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-rent"></span></div>
+                        <div class="text w-100">
+                          <h3 class="heading mb-2">Hoàn tất đặt đơn</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p><a href="#" class="btn btn-primary py-3 px-4">Đặt xe để có chuyến đi tuyệt vời</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <!-- TÌM CHUYẾN XE NGẮN -->
+    <section class="ftco-section" id="tim-chuyen-xe">
+      <div class="container ">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Tìm kiếm</span>
+            <h2 class="mb-3">Tìm chuyến xe</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-4 ">
+          <div class="col-md-8 ">
+            <form action="#" method="get" class="request-form ftco-animate find-route" id="form-tim-chuyen">
+              <h2>Tìm chuyến xe</h2>
+
+              <div class="form-group">
+                <label for="search_from" class="label">Điểm đi</label>
+                <input type="text" id="search_from" name="search_from" class="form-control" placeholder="Nhập điểm xuất phát" required>
+              </div>
+
+              <div class="form-group">
+                <label for="search_to" class="label">Điểm đến</label>
+                <input type="text" id="search_to" name="search_to" class="form-control" placeholder="Nhập điểm đến" required>
+              </div>
+
+              <div class="form-group">
+                <label for="search_date" class="label">Ngày đi</label>
+                <input type="text" id="search_date" name="search_date" class="form-control" placeholder="Chọn ngày" autocomplete="off">
+              </div>
+
+              <div class="form-group">
+                <input type="submit" value="Tìm chuyến" class="btn btn-secondary py-3 px-4">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section bg-light" id="loai-xe">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+            <span class="subheading">Chúng tôi có</span>
+            <h2 class="mb-2">Các loại xe</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel-car owl-carousel">
+              <div class="item">
+                <div class="car-wrap rounded ftco-animate">
+                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-1.1.jpg);"></div>
+                  <div class="text">
+                    <h2 class="mb-0"><a href="#">Xe 4 chỗ</a></h2>
+                    <!-- <div class="d-flex mb-3">
+                      <span class="cat">Sedan</span>
+                      <p class="price ml-auto">Từ 500.000<span>đ / chuyến</span></p>
+                    </div> -->
+                    <p class="d-flex mb-0 d-block">
+                      <a href="#" class="btn btn-primary py-2 mr-1">Đặt ngay</a>
+                      <!-- <a href="#" class="btn btn-secondary py-2 ml-1">Chi tiết</a> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="car-wrap rounded ftco-animate">
+                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-2.1.jpg);"></div>
+                  <div class="text">
+                    <h2 class="mb-0"><a href="#">Xe 6 chỗ</a></h2>
+                    <!-- <div class="d-flex mb-3">
+                      <span class="cat">MPV</span>
+                      <p class="price ml-auto">Từ 700.000<span>đ / chuyến</span></p>
+                    </div> -->
+                    <p class="d-flex mb-0 d-block">
+                      <a href="#" class="btn btn-primary py-2 mr-1">Đặt ngay</a>
+                      <!-- <a href="#" class="btn btn-secondary py-2 ml-1">Chi tiết</a> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="car-wrap rounded ftco-animate">
+                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-3.1.jpg);"></div>
+                  <div class="text">
+                    <h2 class="mb-0"><a href="#">Xe 7 chỗ</a></h2>
+                    <!-- <div class="d-flex mb-3">
+                      <span class="cat">SUV</span>
+                      <p class="price ml-auto">Từ 800.000<span>đ / chuyến</span></p>
+                    </div> -->
+                    <p class="d-flex mb-0 d-block">
+                      <a href="#" class="btn btn-primary py-2 mr-1">Đặt ngay</a>
+                      <!-- <a href="#" class="btn btn-secondary py-2 ml-1">Chi tiết</a> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="car-wrap rounded ftco-animate">
+                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-4.1.jpg);"></div>
+                  <div class="text">
+                    <h2 class="mb-0"><a href="#">Xe 16 chỗ</a></h2>
+                    <!-- <div class="d-flex mb-3">
+                      <span class="cat">Xe thương mại</span>
+                      <p class="price ml-auto">Từ 1.500.000<span>đ / chuyến</span></p>
+                    </div> -->
+                    <p class="d-flex mb-0 d-block">
+                      <a href="#" class="btn btn-primary py-2 mr-1">Đặt ngay</a>
+                      <!-- <a href="#" class="btn btn-secondary py-2 ml-1">Chi tiết</a> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-about" id="ve-chung-toi">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about-1.png);"></div>
+          <div class="col-md-6 wrap-about ftco-animate">
+            <div class="heading-section heading-section-white pl-md-5">
+              <span class="subheading">Về chúng tôi</span>
+              <h2 class="mb-4">Chào mừng đến với DVDL Phương Nam</h2>
+
+              <p>DVDL Phương Nam cung cấp dịch vụ vận chuyển du lịch, đưa đón sân bay, hợp đồng xe và tổ chức chuyến đi theo nhu cầu. Đội ngũ lái xe có kinh nghiệm, xe được bảo dưỡng định kỳ, cam kết an toàn và đúng giờ.</p>
+              <p>Chúng tôi đặt trải nghiệm khách hàng lên hàng đầu: xe sạch, tài xế thân thiện, giá minh bạch. Liên hệ để được tư vấn và báo giá chi tiết.</p>
+              <p><a href="#" class="btn btn-primary py-3 px-4">Tìm xe ngay</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section" id="dich-vu">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Dịch vụ</span>
+            <h2 class="mb-3">Các dịch vụ chính</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="services services-2 w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-wedding-car"></span></div>
+              <div class="text w-100">
+                <h3 class="heading mb-2">Xe cưới &amp; sự kiện</h3>
+                <p>Dịch vụ xe cho tiệc cưới, sự kiện với đội xe chuyên nghiệp và trang trí theo yêu cầu.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="services services-2 w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-transportation"></span></div>
+              <div class="text w-100">
+                <h3 class="heading mb-2">Đưa đón nội thành</h3>
+                <p>Dịch vụ đưa đón nội thành, đưa đón công nhân, nhân viên công ty, đưa đón sự kiện.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="services services-2 w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-car"></span></div>
+              <div class="text w-100">
+                <h3 class="heading mb-2">Đưa đón sân bay</h3>
+                <p>Đưa đón sân bay, hỗ trợ hành lý và cập nhật thời gian chuyến bay.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="services services-2 w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-transportation"></span></div>
+              <div class="text w-100">
+                <h3 class="heading mb-2">Tour trong ngày</h3>
+                <p>Tổ chức tour tham quan trong ngày, tour theo yêu cầu với lộ trình linh hoạt.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-intro" style="background-image: url(images/bg_3.1.png);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-md-6 heading-section heading-section-white ftco-animate">
+            <h2 class="mb-3">Đặt xe tại DVDL Phương Nam để trải nghiệm chuyến du lịch tuyệt vời!</h2>
+            <a href="#" class="btn btn-primary btn-lg">Đặt xe ngay</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="ftco-section testimony-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Phản hồi</span>
+            <h2 class="mb-3">Khách hàng hài lòng</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/person_1.jpg)"></div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Dịch vụ rất tốt, tài xế đúng giờ và tận tâm. Tôi sẽ tiếp tục sử dụng lần sau.</p>
+                    <p class="name">Nguyễn Văn A</p>
+                    <span class="position">Khách hàng</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/person_2.jpg)"></div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Xe sạch, lái xe nhiệt tình, giá cả hợp lý. Rất đáng tin cậy.</p>
+                    <p class="name">Trần Thị B</p>
+                    <span class="position">Khách hàng</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/person_3.jpg)"></div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Trải nghiệm dịch vụ rất tốt cho chuyến đi gia đình của chúng tôi.</p>
+                    <p class="name">Lê Văn C</p>
+                    <span class="position">Khách hàng</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="ftco-section" id="blog">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">Du lịch</span>
+            <h2>DU LỊCH MUÔN NƠI</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/vung-tau.png');"></a>
+              <div class="text pt-4">
+                <!-- <div class="meta mb-3">
+                  <div><a href="#">29 Thg 10, 2019</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div> -->
+                <h3 class="heading mt-2"><a href="#">DU LỊCH SÀI GÒN - VŨNG TÀU</a></h3>
+                <!-- <p><a href="#" class="btn btn-primary">Đọc thêm</a></p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/da-nang.jpeg');"></a>
+              <div class="text pt-4">
+                <!-- <div class="meta mb-3">
+                  <div><a href="#">29 Thg 10, 2019</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div> -->
+                <h3 class="heading mt-2"><a href="#">DU LỊCH SÀI GÒN - ĐÀ NẴNG</a></h3>
+                <!-- <p><a href="#" class="btn btn-primary">Đọc thêm</a></p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/can-tho.jpg');"></a>
+              <div class="text pt-4">
+                <!-- <div class="meta mb-3">
+                  <div><a href="#">29 Thg 10, 2019</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div> -->
+                <h3 class="heading mt-2"><a href="#">DU LỊCH SÀI GÒN - CẦN THƠ</a></h3>
+                <!-- <p><a href="#" class="btn btn-primary">Đọc thêm</a></p> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="ftco-counter ftco-section img bg-light" id="section-counter">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text text-border d-flex align-items-center">
+                <strong class="number" data-number="60">0</strong>
+                <span>Năm <br>Kinh nghiệm</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text text-border d-flex align-items-center">
+                <strong class="number" data-number="1090">0</strong>
+                <span>Tổng số <br>Xe</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text text-border d-flex align-items-center">
+                <strong class="number" data-number="2590">0</strong>
+                <span>Khách hàng <br>Hài lòng</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="67">0</strong>
+                <span>Tổng số <br>Chi nhánh</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section> -->
+    
+        <!-- CONTACT SECTION -->
+    <section class="ftco-section contact-section bg-light" id="contact">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Liên hệ</span>
+            <h2 class="mb-3">Liên hệ với chúng tôi</h2>
+          </div>
+        </div>
+
+        <div class="row d-flex">
+          <!-- THÔNG TIN LIÊN HỆ -->
+          <div class="col-md-4">
+            <div class="row mb-5">
+              <div class="col-md-12">
+                <div class="border w-100 p-4 rounded mb-3 d-flex">
+                  <div class="icon mr-3">
+                    <span class="icon-map-o"></span>
+                  </div>
+                  <p><span>Địa chỉ:</span> Trường Chinh, Tân Bình, TP.HCM</p>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="border w-100 p-4 rounded mb-3 d-flex">
+                  <div class="icon mr-3">
+                    <span class="icon-mobile-phone"></span>
+                  </div>
+                  <p>
+                    <span>Điện thoại:</span>
+                    <a href="tel:0901234567">0901 234 567</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="border w-100 p-4 rounded d-flex">
+                  <div class="icon mr-3">
+                    <span class="icon-envelope-o"></span>
+                  </div>
+                  <p>
+                    <span>Email:</span>
+                    <a href="mailto:dvdlphuongnam@gmail.com">
+                      dvdlphuongnam@gmail.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FORM LIÊN HỆ -->
+          <div class="col-md-8">
+            <form class="bg-white p-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Họ và tên">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Tiêu đề">
+              </div>
+
+              <div class="form-group">
+                <textarea cols="30" rows="7" class="form-control" placeholder="Nội dung liên hệ"></textarea>
+              </div>
+
+              <div class="form-group">
+                <input type="submit" value="Gửi liên hệ" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><a href="#" class="logo">DVDL<span> Phương Nam</span></a></h2>
+              <p>DVDL Phương Nam - Dịch vụ đặt xe du lịch, đưa đón sân bay và hợp đồng xe uy tín.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Thông tin</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Giới thiệu</a></li>
+                <li><a href="#" class="py-2 d-block">Dịch vụ</a></li>
+                <li><a href="#" class="py-2 d-block">Điều khoản</a></li>
+                <li><a href="#" class="py-2 d-block">Cam kết giá tốt</a></li>
+                <li><a href="#" class="py-2 d-block">Chính sách bảo mật</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Hỗ trợ khách hàng</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">FAQ</a></li>
+                <li><a href="#" class="py-2 d-block">Phương thức thanh toán</a></li>
+                <li><a href="#" class="py-2 d-block">Mẹo đặt xe</a></li>
+                <li><a href="#" class="py-2 d-block">Cách thức hoạt động</a></li>
+                <li><a href="#" class="py-2 d-block">Liên hệ</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Cần hỗ trợ?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">Số 203, Đường Ví dụ, Quận X, TP. Hồ Chí Minh, Việt Nam</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">0901 234 567</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">dvdlphuongnam@gmail.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> DVDL Phương Nam. 
+              All rights reserved | Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+      </svg>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
