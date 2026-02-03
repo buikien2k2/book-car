@@ -39,7 +39,7 @@
             <li class="nav-item active"><a href="index.html" class="nav-link">Trang chủ</a></li>
             <li class="nav-item"><a href="#ve-chung-toi" class="nav-link">Về chúng tôi</a></li>
             <li class="nav-item"><a href="#dich-vu" class="nav-link">Dịch vụ</a></li>
-            <li class="nav-item"><a href="#bang-gia" class="nav-link">Bảng giá</a></li>
+            <li class="nav-item"><a href="#tim-chuyen-xe" class="nav-link">Tra cứu nhanh</a></li>
             <li class="nav-item"><a href="#loai-xe" class="nav-link">Loại xe</a></li>
             <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
             <li class="nav-item"><a href="#lien-he" class="nav-link">Liên hệ</a></li>
@@ -195,42 +195,63 @@
     </section>
 
     <!-- TÌM CHUYẾN XE NGẮN -->
-    <section class="ftco-section" id="tim-chuyen-xe">
-      <div class="container ">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Tìm kiếm</span>
-            <h2 class="mb-3">Tìm chuyến xe</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center mb-4 ">
-          <div class="col-md-8 ">
-            <form action="#" method="get" class="request-form ftco-animate find-route" id="form-tim-chuyen">
-              <h2>Tìm chuyến xe</h2>
-
-              <div class="form-group">
-                <label for="search_from" class="label">Điểm đi</label>
-                <input type="text" id="search_from" name="search_from" class="form-control" placeholder="Nhập điểm xuất phát" required>
-              </div>
-
-              <div class="form-group">
-                <label for="search_to" class="label">Điểm đến</label>
-                <input type="text" id="search_to" name="search_to" class="form-control" placeholder="Nhập điểm đến" required>
-              </div>
-
-              <div class="form-group">
-                <label for="search_date" class="label">Ngày đi</label>
-                <input type="text" id="search_date" name="search_date" class="form-control" placeholder="Chọn ngày" autocomplete="off">
-              </div>
-
-              <div class="form-group">
-                <input type="submit" value="Tìm chuyến" class="btn btn-secondary py-3 px-4">
-              </div>
-            </form>
-          </div>
+    <section class="ftco-section bg-light" id="tim-chuyen-xe">
+      <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8 text-center heading-section ftco-animate">
+          <span class="subheading">Tra cứu nhanh</span>
+          <h2 class="mb-3">Tìm chuyến xe</h2>
         </div>
       </div>
-    </section>
+      <!-- ROW CHÍNH -->
+      <div class="row">
+        <!-- FORM -->
+        <div class="col-lg-4">
+          <form id="form-tim-chuyen" class="search-box-blue">
+            <h5 class="mb-4">Bộ lọc chuyến xe</h5>
+            <div class="form-group">
+              <label>Điểm đi</label>
+              <select id="search_from" class="form-control">
+                <option value="">Chọn điểm đi</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Điểm đến</label>
+              <select id="search_to" class="form-control">
+                <option value="">Chọn điểm đến</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Dịch vụ</label>
+              <div class="service-checkbox">
+                <label><input type="checkbox" value="1_chieu"> 1 chiều</label>
+                <label><input type="checkbox" value="theo_ngay"> Theo ngày</label>
+                <label><input type="checkbox" value="tron_goi"> Trọn gói</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Loại xe</label>
+              <select id="search_seat" class="form-control">
+                <option value="">Tất cả</option>
+                <option value="4">4 chỗ</option>
+                <option value="7">7 chỗ</option>
+                <option value="16">16 chỗ</option>
+              </select>
+            </div>
+
+            <button class="btn btn-light btn-block">Tìm chuyến</button>
+          </form>
+        </div>
+        <!-- KẾT QUẢ -->
+        <div class="col-lg-8">
+          <div id="route-result" class="route-list"></div>
+          <div id="pagination" class="mt-4 text-center"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
     <section class="ftco-section bg-light" id="loai-xe">
       <div class="container">
@@ -723,8 +744,9 @@
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
+    <!-- <script src="js/google-map.js"></script> -->
+     <script type="module" src="js/CFR.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

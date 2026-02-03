@@ -9917,6 +9917,143 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+/* ====== TÌM CHUYẾN XE ====== */
+
+/* ===== FORM TÌM CHUYẾN XANH ===== */
+.search-box-blue {
+  background: linear-gradient(135deg, #1089ff, #0b5ed7);
+  padding: 30px 25px;
+  border-radius: 14px;
+  color: #fff;
+  box-shadow: 0 15px 40px rgba(16,137,255,0.35);
+  margin-left: -15px; /* lui sang trái */
+}
+
+.search-box-blue h5 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.search-box-blue label {
+  color: #eaf2ff;
+  font-size: 14px;
+}
+
+.search-box-blue .form-control {
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: #fff;
+  height: 46px;
+}
+
+.search-box-blue .form-control option {
+  color: #000;
+}
+
+.search-box-blue .form-control::placeholder {
+  color: #dbe7ff;
+}
+
+.search-box-blue .service-checkbox label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.search-box-blue input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.search-box-blue .btn {
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+
+/* ====== CARD KẾT QUẢ ====== */
+
+/* CARD NGANG */
+.route-card-mini {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  opacity: 0;
+  transform: translateX(40px);
+  transition: all 0.5s ease;
+}
+
+.route-card-mini.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.route-info h5 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.route-info small {
+  color: #888;
+}
+
+.route-price {
+  text-align: right;
+}
+
+.route-price span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1089ff;
+}
+
+/* ===== PAGINATION ===== */
+#pagination .page-btn {
+  border: none;
+  background: #e9f1ff;
+  color: #1089ff;
+  padding: 6px 12px;
+  margin: 0 3px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#pagination .page-btn.active {
+  background: #1089ff;
+  color: #fff;
+}
+/* ===== CHECKBOX ĐẸP ===== */
+.service-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,0.15);
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.service-checkbox label:hover {
+  background: rgba(255,255,255,0.25);
+}
+
+.service-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #fff;
+}
+
+
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
